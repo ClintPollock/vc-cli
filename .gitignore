@@ -1,0 +1,6 @@
+.verascan-cache
+.idea
+.tmp
+bin
+*.done
+.DS_Store

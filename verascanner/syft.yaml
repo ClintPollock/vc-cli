@@ -1,0 +1,108 @@
+#output: json
+
+quiet: true
+log:
+  level: error
+
+check-for-app-update: false
+
+catalogers:
+  - ruby-gemfile
+  - ruby-gemspec
+  - python-index
+  - python-package
+  - javascript-lock
+  - javascript-package
+  - php-composer-installed
+  - php-composer-lock
+  - alpmdb
+  - dpkgdb
+  - rpmdb
+  - java
+  - java-pom
+  - apkdb
+  - go-module-binary
+  - go-mod-file
+  - dartlang-lock
+  - rust
+  - rust-cargo-lock
+  - dotnet-deps
+  - rust-audit-binary
+  - portage
+  - cocoapod
+  - conan
+  - hackage
+  - cargo-auditable-binary
+
+# cataloging packages is exposed through the packages and power-user subcommands
+package:
+  search-indexed-archives: true
+  search-unindexed-archives: false
+
+  cataloger:
+    enabled: true
+
+    # the search space to look for packages (options: all-layers, squashed)
+    # same as -s ; SYFT_PACKAGE_CATALOGER_SCOPE env var
+    scope: "squashed"
+
+# cataloging file classifications is exposed through the power-user subcommand
+file-classification:
+  cataloger:
+    enabled: true
+    scope: "squashed"
+
+file-contents:
+  cataloger:
+    enabled: true
+    scope: "squashed"
+
+  skip-files-above-size: 1048576
+
+  #globs: []
+
+# cataloging file metadata is exposed through the power-user subcommand
+file-metadata:
+  cataloger:
+    # enable/disable cataloging of file metadata
+    # SYFT_FILE_METADATA_CATALOGER_ENABLED env var
+    enabled: true
+
+    # the search space to look for file metadata (options: all-layers, squashed)
+    # SYFT_FILE_METADATA_CATALOGER_SCOPE env var
+    scope: "squashed"
+
+  # the file digest algorithms to use when cataloging files (options: "sha256", "md5", "sha1")
+  # SYFT_FILE_METADATA_DIGESTS env var
+  digests: ["sha256"]
+
+# cataloging secrets is exposed through the power-user subcommand
+secrets:
+  cataloger:
+    # enable/disable cataloging of secrets
+    # SYFT_SECRETS_CATALOGER_ENABLED env var
+    enabled: false #true
+
+    # the search space to look for secrets (options: all-layers, squashed)
+    # SYFT_SECRETS_CATALOGER_SCOPE env var
+    scope: "all-layers"
+
+  # show extracted secret values in the final JSON report
+  # SYFT_SECRETS_REVEAL_VALUES env var
+  reveal-values: false
+
+  # skip searching a file entirely if it is above the given size (default = 1MB; unit = bytes)
+  # SYFT_SECRETS_SKIP_FILES_ABOVE_SIZE env var
+  skip-files-above-size: 1048576
+
+  # name-regex pairs to consider when searching files for secrets. Note: the regex must match single line patterns
+  # but may also have OPTIONAL multiline capture groups. Regexes with a named capture group of "value" will
+  # use the entire regex to match, but the secret value will be assumed to be entirely contained within the
+  # "value" named capture group.
+  additional-patterns: {}
+
+  # names to exclude from the secrets search, valid values are: "aws-access-key", "aws-secret-key", "pem-private-key",
+  # "docker-config-auth", and "generic-api-key". Note: this does not consider any names introduced in the
+  # "secrets.additional-patterns" config option.
+  # SYFT_SECRETS_EXCLUDE_PATTERN_NAMES env var
+  exclude-pattern-names: []

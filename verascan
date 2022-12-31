@@ -1,0 +1,14 @@
+#!/bin/bash
+
+VERASCANNER_IMAGE=verascanner
+
+CACHEDIR=$(pwd)/.verascan-cache
+mkdir -p ${CACHEDIR}
+
+docker run --rm \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -v /var/lib/docker:/root/.cache/ \
+  -v ${CACHEDIR}:/data \
+  -v $(pwd):/local-context \
+  ${VERASCANNER_IMAGE} \
+  $@

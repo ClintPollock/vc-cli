@@ -1,0 +1,1360 @@
+{
+  "target_id": "sha256:9d56340ed47aa28c9c99aa51a999b5882a55085d98d0ed2986959d5e58de2a82",
+  "vulnerabilities": {
+    "matches": [
+      {
+        "vulnerability": {
+          "id": "CVE-2017-5645",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2017-5645",
+          "namespace": "nvd:cpe",
+          "severity": "Critical",
+          "urls": [
+            "https://issues.apache.org/jira/browse/LOG4J2-1863",
+            "http://www.securityfocus.com/bid/97702",
+            "https://access.redhat.com/errata/RHSA-2017:3244",
+            "https://access.redhat.com/errata/RHSA-2017:2889",
+            "https://access.redhat.com/errata/RHSA-2017:2888",
+            "https://access.redhat.com/errata/RHSA-2017:2811",
+            "https://access.redhat.com/errata/RHSA-2017:2810",
+            "https://access.redhat.com/errata/RHSA-2017:2809",
+            "https://access.redhat.com/errata/RHSA-2017:2808",
+            "https://access.redhat.com/errata/RHSA-2017:3400",
+            "https://access.redhat.com/errata/RHSA-2017:3399",
+            "https://access.redhat.com/errata/RHSA-2017:2638",
+            "https://access.redhat.com/errata/RHSA-2017:2637",
+            "https://access.redhat.com/errata/RHSA-2017:2636",
+            "https://access.redhat.com/errata/RHSA-2017:2635",
+            "https://access.redhat.com/errata/RHSA-2017:2633",
+            "https://access.redhat.com/errata/RHSA-2017:2423",
+            "https://access.redhat.com/errata/RHSA-2017:1802",
+            "https://access.redhat.com/errata/RHSA-2017:1801",
+            "https://access.redhat.com/errata/RHSA-2017:1417",
+            "http://www.securitytracker.com/id/1040200",
+            "http://www.oracle.com/technetwork/security-advisory/cpujan2018-3236628.html",
+            "http://www.oracle.com/technetwork/security-advisory/cpuapr2018-3678067.html",
+            "http://www.oracle.com/technetwork/security-advisory/cpujul2018-4258247.html",
+            "https://security.netapp.com/advisory/ntap-20180726-0002/",
+            "http://www.securitytracker.com/id/1041294",
+            "http://www.oracle.com/technetwork/security-advisory/cpuoct2018-4428296.html",
+            "https://security.netapp.com/advisory/ntap-20181107-0002/",
+            "https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html",
+            "https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html",
+            "https://access.redhat.com/errata/RHSA-2019:1545",
+            "https://www.oracle.com/technetwork/security-advisory/cpujul2019-5072835.html",
+            "https://www.oracle.com/technetwork/security-advisory/cpuoct2019-5072832.html",
+            "https://lists.apache.org/thread.html/9317fd092b257a0815434b116a8af8daea6e920b6673f4fd5583d5fe@%3Ccommits.druid.apache.org%3E",
+            "https://lists.apache.org/thread.html/e8fb7d76a244ee997ba4b217d6171227f7c2521af8c7c5b16cba27bc@%3Cdev.logging.apache.org%3E",
+            "https://lists.apache.org/thread.html/eea03d504b36e8f870e8321d908e1def1addda16adda04327fe7c125@%3Cdev.logging.apache.org%3E",
+            "https://lists.apache.org/thread.html/84cc4266238e057b95eb95dfd8b29d46a2592e7672c12c92f68b2917@%3Cannounce.apache.org%3E",
+            "http://www.openwall.com/lists/oss-security/2019/12/19/2",
+            "https://lists.apache.org/thread.html/0dcca05274d20ef2d72584edcf8c917bbb13dbbd7eb35cae909d02e9@%3Cdev.logging.apache.org%3E",
+            "https://lists.apache.org/thread.html/8ab32b4c9f1826f20add7c40be08909de9f58a89dc1de9c09953f5ac@%3Cissues.activemq.apache.org%3E",
+            "https://lists.apache.org/thread.html/44491fb9cc19acc901f7cff34acb7376619f15638439416e3e14761c@%3Cdev.tika.apache.org%3E",
+            "https://lists.apache.org/thread.html/277b4b5c2b0e06a825ccec565fa65bd671f35a4d58e3e2ec5d0618e1@%3Cdev.tika.apache.org%3E",
+            "https://lists.apache.org/thread.html/479471e6debd608c837b9815b76eab24676657d4444fcfd5ef96d6e6@%3Cdev.tika.apache.org%3E",
+            "https://lists.apache.org/thread.html/6114ce566200d76e3cc45c521a62c2c5a4eac15738248f58a99f622c@%3Cissues.activemq.apache.org%3E",
+            "https://lists.apache.org/thread.html/rf2567488cfc9212b42e34c6393cfa1c14e30e4838b98dda84d71041f@%3Cdev.tika.apache.org%3E",
+            "https://lists.apache.org/thread.html/r3a85514a518f3080ab1fc2652cfe122c2ccf67cfb32356acb1b08fe8@%3Cdev.tika.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc1eaed7f7d774d5d02f66e49baced31e04827a1293d61a70bd003ca7@%3Cdev.tika.apache.org%3E",
+            "https://lists.apache.org/thread.html/r681b4432d0605f327b68b9f8a42662993e699d04614de4851c35ffd1@%3Cdev.tika.apache.org%3E",
+            "https://lists.apache.org/thread.html/ra38785cfc0e7f17f8e24bebf775dd032c033fadcaea29e5bc9fffc60@%3Cdev.tika.apache.org%3E",
+            "https://lists.apache.org/thread.html/rdec0d8ac1f03e6905b0de2df1d5fcdb98b94556e4f6cccf7519fdb26@%3Cdev.tika.apache.org%3E",
+            "https://lists.apache.org/thread.html/r746fbc3fc13aee292ae6851f7a5080f592fa3a67b983c6887cdb1fc5@%3Cdev.tika.apache.org%3E",
+            "https://lists.apache.org/thread.html/rca24a281000fb681d7e26e5c031a21eb4b0593a7735f781b53dae4e2@%3Cdev.tika.apache.org%3E",
+            "https://lists.apache.org/thread.html/r4b25538be50126194cc646836c718b1a4d8f71bd9c912af5b59134ad@%3Cdev.tika.apache.org%3E",
+            "https://www.oracle.com/security-alerts/cpujan2020.html",
+            "https://lists.apache.org/thread.html/r7bcdc710857725c311b856c0b82cee6207178af5dcde1bd43d289826@%3Cissues.activemq.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd5dbeee4808c0f2b9b51479b50de3cc6adb1072c332a200d9107f13e@%3Cissues.activemq.apache.org%3E",
+            "https://lists.apache.org/thread.html/r2ff63f210842a3c5e42f03a35d8f3a345134d073c80a04077341c211@%3Cissues.activemq.apache.org%3E",
+            "https://lists.apache.org/thread.html/raedd12dc24412b3780432bf202a2618a21a727788543e5337a458ead@%3Cissues.activemq.apache.org%3E",
+            "https://lists.apache.org/thread.html/r3d666e4e8905157f3c046d31398b04f2bfd4519e31f266de108c6919@%3Cissues.activemq.apache.org%3E",
+            "https://lists.apache.org/thread.html/r61590890edcc64140e0c606954b29a063c3d08a2b41d447256d51a78@%3Cissues.activemq.apache.org%3E",
+            "https://lists.apache.org/thread.html/r2ce8d26154bea939536e6cf27ed02d3192bf5c5d04df885a80fe89b3@%3Cissues.activemq.apache.org%3E",
+            "https://lists.apache.org/thread.html/re8c21ed9dd218c217d242ffa90778428e446b082b5e1c29f567e8374@%3Cissues.activemq.apache.org%3E",
+            "https://lists.apache.org/thread.html/r18f1c010b554a3a2d761e8ffffd8674fd4747bcbcf16c643d708318c@%3Cissues.activemq.apache.org%3E",
+            "https://lists.apache.org/thread.html/rb1b29aee737e1c37fe1d48528cb0febac4f5deed51f5412e6fdfe2bf@%3Cissues.activemq.apache.org%3E",
+            "https://www.oracle.com/security-alerts/cpuapr2020.html",
+            "https://lists.apache.org/thread.html/ra9a682bc0a8dff1c5cefdef31c7c25f096d9121207cf2d74e2fc563d@%3Ccommits.logging.apache.org%3E",
+            "https://www.oracle.com/security-alerts/cpujul2020.html",
+            "https://lists.apache.org/thread.html/r1b103833cb5bc8466e24ff0ecc5e75b45a705334ab6a444e64e840a0@%3Cissues.bookkeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/r3784834e80df2f284577a5596340fb84346c91a2dea6a073e65e3397@%3Cissues.activemq.apache.org%3E",
+            "https://lists.apache.org/thread.html/rf1bbc0ea4a9f014cf94df9a12a6477d24a27f52741dbc87f2fd52ff2@%3Cissues.geode.apache.org%3E",
+            "https://www.oracle.com/security-alerts/cpuoct2020.html",
+            "https://www.oracle.com/security-alerts/cpujan2021.html",
+            "https://lists.apache.org/thread.html/rcbb79023a7c8494cb389cd3d95420fa9e0d531ece0b780b8c1f99422@%3Ccommits.doris.apache.org%3E",
+            "https://lists.apache.org/thread.html/r0831e2e52a390758ce39a6193f82c11c295175adce6e6307de28c287@%3Cissues.beam.apache.org%3E",
+            "https://www.oracle.com/security-alerts/cpuApr2021.html",
+            "https://lists.apache.org/thread.html/rbfa7a0742be4981a3f9356a23d0e1a5f2e1eabde32a1a3d8e41420f8@%3Cgithub.beam.apache.org%3E",
+            "https://lists.apache.org/thread.html/r23369fd603eb6d62d3b883a0a28d12052dcbd1d6d531137124cd7f83@%3Cgithub.beam.apache.org%3E",
+            "https://lists.apache.org/thread.html/r9d5c1b558a15d374bd5abd2d3ae3ca7e50e796a0efdcf91e9c5b4cdd@%3Cgithub.beam.apache.org%3E",
+            "https://lists.apache.org/thread.html/r94b5aae09c4bcff5d06cf641be17b00bd83ba7e10cad737bf16a1b8f@%3Cgithub.beam.apache.org%3E",
+            "https://lists.apache.org/thread.html/rdbd579dc223f06af826d7de340218ee2f80d8b43fa7e4decb2a63f44@%3Cgithub.beam.apache.org%3E",
+            "https://www.oracle.com/security-alerts/cpuoct2021.html",
+            "https://www.oracle.com/security-alerts/cpujan2022.html"
+          ],
+          "description": "In Apache Log4j 2.x before 2.8.2, when using the TCP socket server or UDP socket server to receive serialized log events from another application, a specially crafted binary payload can be sent that, when deserialized, can execute arbitrary code.",
+          "cvss": [
+            {
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 10,
+                "impactScore": 6.4
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "metrics": {
+                "baseScore": 9.8,
+                "exploitabilityScore": 3.9,
+                "impactScore": 5.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "fix": {
+            "versions": [],
+            "state": "unknown"
+          },
+          "advisories": []
+        },
+        "relatedVulnerabilities": [],
+        "matchDetails": [
+          {
+            "type": "cpe-match",
+            "matcher": "java-matcher",
+            "searchedBy": {
+              "namespace": "nvd:cpe",
+              "cpes": [
+                "cpe:2.3:a:apache:log4j:2.0.1:*:*:*:*:*:*:*"
+              ]
+            },
+            "found": {
+              "versionConstraint": ">= 2.0, < 2.8.2 (unknown)",
+              "cpes": [
+                "cpe:2.3:a:apache:log4j:*:*:*:*:*:*:*:*"
+              ]
+            }
+          }
+        ],
+        "artifact": {
+          "name": "log4j-1.2-api",
+          "version": "2.0.1",
+          "type": "java-archive",
+          "locations": [
+            {
+              "path": "/apache-log4j-2.0.1-bin/log4j-1.2-api-2.0.1.jar",
+              "layerID": "sha256:a6eda5f3f2d5be85f979b292a07e51b69600524488ec0ff046575499d2b2e1c9"
+            }
+          ],
+          "language": "java",
+          "licenses": [],
+          "cpes": [
+            "cpe:2.3:a:apache-software-foundation:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache-software-foundation:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache_software_foundation:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache_software_foundation:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache-software-foundation:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache-software-foundation:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache-software-foundation:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache_software_foundation:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache_software_foundation:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache_software_foundation:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2-api:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2-api:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2_api:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2_api:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:logging:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:logging:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2-api:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2-api:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2_api:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2_api:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2-api:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2-api:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2-api:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2_api:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2_api:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2_api:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:1:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:1:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:logging:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:logging:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:logging:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2-api:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2-api:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2-api:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2_api:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2_api:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2_api:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:1:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:1:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:1:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2:log4j:2.0.1:*:*:*:*:*:*:*"
+          ],
+          "purl": "pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.0.1",
+          "upstreams": [],
+          "metadataType": "JavaMetadata",
+          "metadata": {
+            "virtualPath": "/apache-log4j-2.0.1-bin/log4j-1.2-api-2.0.1.jar",
+            "pomArtifactID": "log4j-1.2-api",
+            "pomGroupID": "org.apache.logging.log4j",
+            "manifestName": "",
+            "archiveDigests": [
+              {
+                "algorithm": "sha1",
+                "value": "850e93d964bf6741da70c6f040f3db88bdaec147"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "vulnerability": {
+          "id": "CVE-2018-25032",
+          "dataSource": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-25032",
+          "namespace": "alpine:distro:alpine:3.15",
+          "severity": "High",
+          "urls": [
+            "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-25032"
+          ],
+          "cvss": [],
+          "fix": {
+            "versions": [
+              "1.2.12-r0"
+            ],
+            "state": "fixed"
+          },
+          "advisories": []
+        },
+        "relatedVulnerabilities": [
+          {
+            "id": "CVE-2018-25032",
+            "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-25032",
+            "namespace": "nvd:cpe",
+            "severity": "High",
+            "urls": [
+              "https://www.openwall.com/lists/oss-security/2022/03/24/1",
+              "https://github.com/madler/zlib/commit/5c44459c3b28a9bd3283aaceab7c615f8020c531",
+              "http://www.openwall.com/lists/oss-security/2022/03/25/2",
+              "http://www.openwall.com/lists/oss-security/2022/03/26/1",
+              "https://www.openwall.com/lists/oss-security/2022/03/28/1",
+              "https://github.com/madler/zlib/compare/v1.2.11...v1.2.12",
+              "https://www.openwall.com/lists/oss-security/2022/03/28/3",
+              "https://github.com/madler/zlib/issues/605",
+              "https://www.debian.org/security/2022/dsa-5111",
+              "https://lists.debian.org/debian-lts-announce/2022/04/msg00000.html",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NS2D2GFPFGOJUL4WQ3DUAY7HF4VWQ77F/",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XOKFMSNQ5D5WGMALBNBXU3GE442V74WU/",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VOKNP2L734AEL47NRYGVZIKEFOUBQY5Y/",
+              "https://lists.debian.org/debian-lts-announce/2022/05/msg00008.html",
+              "https://support.apple.com/kb/HT213255",
+              "https://support.apple.com/kb/HT213256",
+              "https://support.apple.com/kb/HT213257",
+              "http://seclists.org/fulldisclosure/2022/May/33",
+              "http://seclists.org/fulldisclosure/2022/May/35",
+              "http://seclists.org/fulldisclosure/2022/May/38",
+              "https://security.netapp.com/advisory/ntap-20220526-0009/",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DF62MVMH3QUGMBDCB3DY2ERQ6EBHTADB/"
+            ],
+            "description": "zlib before 1.2.12 allows memory corruption when deflating (i.e., when compressing) if the input has many distant matches.",
+            "cvss": [
+              {
+                "version": "2.0",
+                "vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+                "metrics": {
+                  "baseScore": 5,
+                  "exploitabilityScore": 10,
+                  "impactScore": 2.9
+                },
+                "vendorMetadata": {}
+              },
+              {
+                "version": "3.1",
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "metrics": {
+                  "baseScore": 7.5,
+                  "exploitabilityScore": 3.9,
+                  "impactScore": 3.6
+                },
+                "vendorMetadata": {}
+              }
+            ]
+          }
+        ],
+        "matchDetails": [
+          {
+            "type": "exact-direct-match",
+            "matcher": "apk-matcher",
+            "searchedBy": {
+              "distro": {
+                "type": "alpine",
+                "version": "3.15.0"
+              },
+              "namespace": "alpine:distro:alpine:3.15",
+              "package": {
+                "name": "zlib",
+                "version": "1.2.11-r3"
+              }
+            },
+            "found": {
+              "versionConstraint": "< 1.2.12-r0 (apk)"
+            }
+          }
+        ],
+        "artifact": {
+          "name": "zlib",
+          "version": "1.2.11-r3",
+          "type": "apk",
+          "locations": [
+            {
+              "path": "/lib/apk/db/installed",
+              "layerID": "sha256:a37f993b0e569a2b6572744f12878c326f88becda3d37e4827457dc9c7059ad4"
+            }
+          ],
+          "language": "",
+          "licenses": [
+            "Zlib"
+          ],
+          "cpes": [
+            "cpe:2.3:a:zlib:zlib:1.2.11-r3:*:*:*:*:*:*:*"
+          ],
+          "purl": "pkg:alpine/zlib@1.2.11-r3?arch=x86_64&upstream=zlib&distro=alpine-3.15.0",
+          "upstreams": [
+            {
+              "name": "zlib"
+            }
+          ]
+        }
+      },
+      {
+        "vulnerability": {
+          "id": "CVE-2020-9488",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2020-9488",
+          "namespace": "nvd:cpe",
+          "severity": "Low",
+          "urls": [
+            "https://issues.apache.org/jira/browse/LOG4J2-2819",
+            "https://lists.apache.org/thread.html/r8c001b9a95c0bbec06f4457721edd94935a55932e64b82cc5582b846@%3Cissues.zookeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/r2f209d271349bafd91537a558a279c08ebcff8fa3e547357d58833e6@%3Cdev.zookeeper.apache.org%3E",
+            "https://security.netapp.com/advisory/ntap-20200504-0003/",
+            "https://lists.apache.org/thread.html/r7641ee788e1eb1be4bb206a7d15f8a64ec6ef23e5ec6132d5a567695@%3Cnotifications.zookeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/r4285398e5585a0456d3d9db021a4fce6e6fcf3ec027dfa13a450ec98@%3Cissues.zookeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/r0df3d7a5acb98c57e64ab9266aa21eeee1d9b399addb96f9cf1cbe05@%3Cdev.zookeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd8e87c4d69df335d0ba7d815b63be8bd8a6352f429765c52eb07ddac@%3Cissues.zookeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/r7e739f2961753af95e2a3a637828fb88bfca68e5d6b0221d483a9ee5@%3Cnotifications.zookeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/r9a79175c393d14d760a0ae3731b4a873230a16ef321aa9ca48a810cd@%3Cissues.zookeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/r48efc7cb5aeb4e1f67aaa06fb4b5479a5635d12f07d0b93fc2d08809@%3Ccommits.zookeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc6b81c013618d1de1b5d6b8c1088aaf87b4bacc10c2371f15a566701@%3Cnotifications.zookeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/rbc45eb0f53fd6242af3e666c2189464f848a851d408289840cecc6e3@%3Ccommits.zookeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/rec34b1cccf907898e7cb36051ffac3ccf1ea89d0b261a2a3b3fb267f@%3Ccommits.zookeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd55f65c6822ff235eda435d31488cfbb9aa7055cdf47481ebee777cc@%3Cissues.zookeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/r7e5c10534ed06bf805473ac85e8412fe3908a8fa4cabf5027bf11220@%3Cdev.kafka.apache.org%3E",
+            "https://lists.apache.org/thread.html/r8e96c340004b7898cad3204ea51280ef6e4b553a684e1452bf1b18b1@%3Cjira.kafka.apache.org%3E",
+            "https://lists.apache.org/thread.html/rf1c2a81a08034c688b8f15cf58a4cfab322d00002ca46d20133bee20@%3Cdev.kafka.apache.org%3E",
+            "https://lists.apache.org/thread.html/r0a2699f724156a558afd1abb6c044fb9132caa66dce861b82699722a@%3Cjira.kafka.apache.org%3E",
+            "https://lists.apache.org/thread.html/r48bcd06049c1779ef709564544c3d8a32ae6ee5c3b7281a606ac4463@%3Cjira.kafka.apache.org%3E",
+            "https://www.oracle.com/security-alerts/cpujul2020.html",
+            "https://lists.apache.org/thread.html/r393943de452406f0f6f4b3def9f8d3c071f96323c1f6ed1a098f7fe4@%3Ctorque-dev.db.apache.org%3E",
+            "https://www.oracle.com/security-alerts/cpuoct2020.html",
+            "https://lists.apache.org/thread.html/r4ed1f49616a8603832d378cb9d13e7a8b9b27972bb46d946ccd8491f@%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/r4db540cafc5d7232c62e076051ef661d37d345015b2e59b3f81a932f@%3Cdev.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/ra632b329b2ae2324fabbad5da204c4ec2e171ff60348ec4ba698fd40@%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/r1fc73f0e16ec2fa249d3ad39a5194afb9cc5afb4c023dc0bab5a5881@%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/r9776e71e3c67c5d13a91c1eba0dc025b48b802eb7561cc6956d6961c@%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/r65578f3761a89bc164e8964acd5d913b9f8fd997967b195a89a97ca3@%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/re024d86dffa72ad800f2848d0c77ed93f0b78ee808350b477a6ed987@%3Cgitbox.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd0e44e8ef71eeaaa3cf3d1b8b41eb25894372e2995ec908ce7624d26@%3Ccommits.pulsar.apache.org%3E",
+            "https://lists.apache.org/thread.html/rbc7642b9800249553f13457e46b813bea1aec99d2bc9106510e00ff3@%3Ctorque-dev.db.apache.org%3E",
+            "https://www.oracle.com/security-alerts/cpujan2021.html",
+            "https://lists.apache.org/thread.html/r3d1d00441c55144a4013adda74b051ae7864128ebcfb6ee9721a2eb3@%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc2dbc4633a6eea1fcbce6831876cfa17b73759a98c65326d1896cb1a@%3Ctorque-dev.db.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd5d58088812cf8e677d99b07f73c654014c524c94e7fedbdee047604@%3Ctorque-dev.db.apache.org%3E",
+            "https://lists.apache.org/thread.html/r33864a0fc171c1c4bf680645ebb6d4f8057899ab294a43e1e4fe9d04@%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/r22a56beb76dd8cf18e24fda9072f1e05990f49d6439662d3782a392f@%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/r4d5dc9f3520071338d9ebc26f9f158a43ae28a91923d176b550a807b@%3Cdev.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/r5a68258e5ab12532dc179edae3d6e87037fa3b50ab9d63a90c432507@%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/ra051e07a0eea4943fa104247e69596f094951f51512d42c924e86c75@%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E",
+            "https://lists.apache.org/thread.html/r45916179811a32cbaa500f972de9098e6ee80ee81c7f134fce83e03a@%3Cissues.flink.apache.org%3E",
+            "https://www.oracle.com/security-alerts/cpuApr2021.html",
+            "https://lists.apache.org/thread.html/r2721aba31a8562639c4b937150897e24f78f747cdbda8641c0f659fe@%3Cusers.kafka.apache.org%3E",
+            "https://www.oracle.com/security-alerts/cpuoct2021.html",
+            "https://www.debian.org/security/2021/dsa-5020",
+            "https://lists.debian.org/debian-lts-announce/2021/12/msg00017.html",
+            "https://www.oracle.com/security-alerts/cpuapr2022.html"
+          ],
+          "description": "Improper validation of certificate with host mismatch in Apache Log4j SMTP appender. This could allow an SMTPS connection to be intercepted by a man-in-the-middle attack which could leak any log messages sent through that appender. Fixed in Apache Log4j 2.12.3 and 2.13.1",
+          "cvss": [
+            {
+              "version": "2.0",
+              "vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+              "metrics": {
+                "baseScore": 4.3,
+                "exploitabilityScore": 8.6,
+                "impactScore": 2.9
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+              "metrics": {
+                "baseScore": 3.7,
+                "exploitabilityScore": 2.2,
+                "impactScore": 1.4
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "fix": {
+            "versions": [],
+            "state": "unknown"
+          },
+          "advisories": []
+        },
+        "relatedVulnerabilities": [],
+        "matchDetails": [
+          {
+            "type": "cpe-match",
+            "matcher": "java-matcher",
+            "searchedBy": {
+              "namespace": "nvd:cpe",
+              "cpes": [
+                "cpe:2.3:a:apache:log4j:2.0.1:*:*:*:*:*:*:*"
+              ]
+            },
+            "found": {
+              "versionConstraint": ">= 2.4, < 2.12.3 || >= 2.13.0, < 2.13.2 || >= 2.0, < 2.3.2 (unknown)",
+              "cpes": [
+                "cpe:2.3:a:apache:log4j:*:*:*:*:*:*:*:*"
+              ]
+            }
+          }
+        ],
+        "artifact": {
+          "name": "log4j-1.2-api",
+          "version": "2.0.1",
+          "type": "java-archive",
+          "locations": [
+            {
+              "path": "/apache-log4j-2.0.1-bin/log4j-1.2-api-2.0.1.jar",
+              "layerID": "sha256:a6eda5f3f2d5be85f979b292a07e51b69600524488ec0ff046575499d2b2e1c9"
+            }
+          ],
+          "language": "java",
+          "licenses": [],
+          "cpes": [
+            "cpe:2.3:a:apache-software-foundation:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache-software-foundation:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache_software_foundation:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache_software_foundation:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache-software-foundation:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache-software-foundation:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache-software-foundation:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache_software_foundation:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache_software_foundation:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache_software_foundation:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2-api:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2-api:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2_api:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2_api:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:logging:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:logging:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2-api:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2-api:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2_api:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2_api:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2-api:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2-api:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2-api:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2_api:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2_api:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2_api:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:1:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:1:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2:log4j-1.2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2:log4j_1.2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j-1.2:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j_1.2:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:logging:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:logging:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:logging:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:apache:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2-api:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2-api:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2-api:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2_api:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2_api:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2_api:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:log4j:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:1:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:1:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:1:log4j:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2:2-api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2:2_api:2.0.1:*:*:*:*:*:*:*",
+            "cpe:2.3:a:2:log4j:2.0.1:*:*:*:*:*:*:*"
+          ],
+          "purl": "pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.0.1",
+          "upstreams": [],
+          "metadataType": "JavaMetadata",
+          "metadata": {
+            "virtualPath": "/apache-log4j-2.0.1-bin/log4j-1.2-api-2.0.1.jar",
+            "pomArtifactID": "log4j-1.2-api",
+            "pomGroupID": "org.apache.logging.log4j",
+            "manifestName": "",
+            "archiveDigests": [
+              {
+                "algorithm": "sha1",
+                "value": "850e93d964bf6741da70c6f040f3db88bdaec147"
+              }
+            ]
+          }
+        }
+      }
+
+    ],
+    "source": {
+      "type": "image",
+      "target": {
+        "userInput": "veray-insecure:latest",
+        "imageID": "sha256:9d56340ed47aa28c9c99aa51a999b5882a55085d98d0ed2986959d5e58de2a82",
+        "manifestDigest": "sha256:2b92eb743526ffd50651f5cce4ebb73448620d171ff52eaecf5a5ec6ff818938",
+        "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+        "tags": [
+          "veray-insecure:latest"
+        ],
+        "imageSize": 23172269,
+        "layers": [
+          {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:8d3ac3489996423f53d6087c81180006263b79f206d3fdec9e66f0e27ceb8759",
+            "size": 5580949
+          },
+          {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:7714061384805b78454c5a63eda2ad523bf5c4b4935be327bedc0085235359fd",
+            "size": 14
+          },
+          {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:a6a703265cd24c23c8f5b4dffb0ce467debeff66519df087450216769033441b",
+            "size": 0
+          },
+          {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:dfa3e86c51b55b0d98aab20368d83f51ccdcf6135ad0e20e6d79590b8b016346",
+            "size": 128
+          },
+          {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:b30c6041db12f645049089b1206f9c1942d15ef828e5334e23a6de7175ad95d7",
+            "size": 2094
+          },
+          {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:d6764c92524f70984712b9dc04d920c79b5930120006216c1d8ad42184373206",
+            "size": 20
+          },
+          {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:4d16d26d5f08650390281b48f4cb20d087c97fdf0e7d6d523dd5641ab1bacbda",
+            "size": 20
+          },
+          {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:3622f8e39eb50533c4e55f60eb1207d399c8dca74d6f48c2347b5f8a76c3bdb0",
+            "size": 20
+          },
+          {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:52648b6a80098de986737ee9aba0dd9dcb70b884cf514ce12c14fc15e591ea2c",
+            "size": 60
+          },
+          {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:66ca9f3ec7fa1d129aaebdc5609672e496fd0ea9d815a01340918afa9f0cfc7b",
+            "size": 20
+          },
+          {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:a31dee5122e9128fd5e676f0eefb24e0af170d5270b7f6ce77fa04be810dd0ef",
+            "size": 20
+          },
+          {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:a37f993b0e569a2b6572744f12878c326f88becda3d37e4827457dc9c7059ad4",
+            "size": 4888682
+          },
+          {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:ce074196d60e685dc357801f59108ef282dea50809a984882639ce8b20b82760",
+            "size": 6020477
+          },
+          {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:9bb6ce820ae5e977b444a72237441c63770f013541af62c748b5ef56a48df22e",
+            "size": 0
+          },
+          {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:a6eda5f3f2d5be85f979b292a07e51b69600524488ec0ff046575499d2b2e1c9",
+            "size": 6679765
+          },
+          {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:1c5a985e637852838d1e61d60a55a3d6d008e5b900ee0baad371839f99f78820",
+            "size": 0
+          }
+        ],
+        "manifest": "eyJzY2hlbWFWZXJzaW9uIjoyLCJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmRpc3RyaWJ1dGlvbi5tYW5pZmVzdC52Mitqc29uIiwiY29uZmlnIjp7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuY29udGFpbmVyLmltYWdlLnYxK2pzb24iLCJzaXplIjo0MTI2LCJkaWdlc3QiOiJzaGEyNTY6OWQ1NjM0MGVkNDdhYTI4YzljOTlhYTUxYTk5OWI1ODgyYTU1MDg1ZDk4ZDBlZDI5ODY5NTlkNWU1OGRlMmE4MiJ9LCJsYXllcnMiOlt7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjo1ODY2NDk2LCJkaWdlc3QiOiJzaGEyNTY6OGQzYWMzNDg5OTk2NDIzZjUzZDYwODdjODExODAwMDYyNjNiNzlmMjA2ZDNmZGVjOWU2NmYwZTI3Y2ViODc1OSJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjIwNDgsImRpZ2VzdCI6InNoYTI1Njo3NzE0MDYxMzg0ODA1Yjc4NDU0YzVhNjNlZGEyYWQ1MjNiZjVjNGI0OTM1YmUzMjdiZWRjMDA4NTIzNTM1OWZkIn0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6MTUzNiwiZGlnZXN0Ijoic2hhMjU2OmE2YTcwMzI2NWNkMjRjMjNjOGY1YjRkZmZiMGNlNDY3ZGViZWZmNjY1MTlkZjA4NzQ1MDIxNjc2OTAzMzQ0MWIifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjoyNTYwLCJkaWdlc3QiOiJzaGEyNTY6ZGZhM2U4NmM1MWI1NWIwZDk4YWFiMjAzNjhkODNmNTFjY2RjZjYxMzVhZDBlMjBlNmQ3OTU5MGI4YjAxNjM0NiJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjUxMjAsImRpZ2VzdCI6InNoYTI1NjpiMzBjNjA0MWRiMTJmNjQ1MDQ5MDg5YjEyMDZmOWMxOTQyZDE1ZWY4MjhlNTMzNGUyM2E2ZGU3MTc1YWQ5NWQ3In0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6MjU2MCwiZGlnZXN0Ijoic2hhMjU2OmQ2NzY0YzkyNTI0ZjcwOTg0NzEyYjlkYzA0ZDkyMGM3OWI1OTMwMTIwMDA2MjE2YzFkOGFkNDIxODQzNzMyMDYifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjoyNTYwLCJkaWdlc3QiOiJzaGEyNTY6NGQxNmQyNmQ1ZjA4NjUwMzkwMjgxYjQ4ZjRjYjIwZDA4N2M5N2ZkZjBlN2Q2ZDUyM2RkNTY0MWFiMWJhY2JkYSJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjI1NjAsImRpZ2VzdCI6InNoYTI1NjozNjIyZjhlMzllYjUwNTMzYzRlNTVmNjBlYjEyMDdkMzk5YzhkY2E3NGQ2ZjQ4YzIzNDdiNWY4YTc2YzNiZGIwIn0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6NTEyMCwiZGlnZXN0Ijoic2hhMjU2OjUyNjQ4YjZhODAwOThkZTk4NjczN2VlOWFiYTBkZDlkY2I3MGI4ODRjZjUxNGNlMTJjMTRmYzE1ZTU5MWVhMmMifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjozMDcyLCJkaWdlc3QiOiJzaGEyNTY6NjZjYTlmM2VjN2ZhMWQxMjlhYWViZGM1NjA5NjcyZTQ5NmZkMGVhOWQ4MTVhMDEzNDA5MThhZmE5ZjBjZmM3YiJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjMwNzIsImRpZ2VzdCI6InNoYTI1NjphMzFkZWU1MTIyZTkxMjhmZDVlNjc2ZjBlZWZiMjRlMGFmMTcwZDUyNzBiN2Y2Y2U3N2ZhMDRiZTgxMGRkMGVmIn0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6NTE1Nzg4OCwiZGlnZXN0Ijoic2hhMjU2OmEzN2Y5OTNiMGU1NjlhMmI2NTcyNzQ0ZjEyODc4YzMyNmY4OGJlY2RhM2QzN2U0ODI3NDU3ZGM5YzcwNTlhZDQifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjo2MDIyNjU2LCJkaWdlc3QiOiJzaGEyNTY6Y2UwNzQxOTZkNjBlNjg1ZGMzNTc4MDFmNTkxMDhlZjI4MmRlYTUwODA5YTk4NDg4MjYzOWNlOGIyMGI4Mjc2MCJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjE1MzYsImRpZ2VzdCI6InNoYTI1Njo5YmI2Y2U4MjBhZTVlOTc3YjQ0NGE3MjIzNzQ0MWM2Mzc3MGYwMTM1NDFhZjYyYzc0OGI1ZWY1NmE0OGRmMjJlIn0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6NjcxMTI5NiwiZGlnZXN0Ijoic2hhMjU2OmE2ZWRhNWYzZjJkNWJlODVmOTc5YjI5MmEwN2U1MWI2OTYwMDUyNDQ4OGVjMGZmMDQ2NTc1NDk5ZDJiMmUxYzkifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjoxNTM2LCJkaWdlc3QiOiJzaGEyNTY6MWM1YTk4NWU2Mzc4NTI4MzhkMWU2MWQ2MGE1NWEzZDZkMDA4ZTViOTAwZWUwYmFhZDM3MTgzOWY5OWY3ODgyMCJ9XX0=",
+        "config": "eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsImNvbmZpZyI6eyJFbnYiOlsiUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4iXSwiQ21kIjpbInNsZWVwIDEiXSwiQXJnc0VzY2FwZWQiOnRydWUsIk9uQnVpbGQiOm51bGx9LCJjcmVhdGVkIjoiMjAyMi0wNi0yOFQyMzoxMTozMy42Mjg5Mzg2MTNaIiwiaGlzdG9yeSI6W3siY3JlYXRlZCI6IjIwMjEtMTEtMjRUMjA6MTk6NDAuMTk5NzAwOTQ2WiIsImNyZWF0ZWRfYnkiOiIvYmluL3NoIC1jICMobm9wKSBBREQgZmlsZTo5MjMzZjZmMjIzN2Q3OTY1OWE5NTIxZjdlMzkwZGYyMTdjZWM0OWYxYThhYTNhMTIxNDdiYmNhMTk1NmFjZGI5IGluIC8gIn0seyJjcmVhdGVkIjoiMjAyMS0xMS0yNFQyMDoxOTo0MC40ODMzNjc1NDZaIiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgIyhub3ApICBDTUQgW1wiL2Jpbi9zaFwiXSIsImVtcHR5X2xheWVyIjp0cnVlfSx7ImNyZWF0ZWQiOiIyMDIyLTA2LTI4VDIzOjExOjI2LjMxMDk2MDM0NVoiLCJjcmVhdGVkX2J5IjoiQ09QWSBkdW1teS50eHQgL2R1bW15LnR4dCAjIGJ1aWxka2l0IiwiY29tbWVudCI6ImJ1aWxka2l0LmRvY2tlcmZpbGUudjAifSx7ImNyZWF0ZWQiOiIyMDIyLTA2LTI4VDIzOjExOjI2LjMzMTkwNzY2OVoiLCJjcmVhdGVkX2J5IjoiQ09QWSBpbnNlY3VyZS1jb25maWcudHh0IC9jb25maWcudHh0ICMgYnVpbGRraXQiLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCJ9LHsiY3JlYXRlZCI6IjIwMjItMDYtMjhUMjM6MTE6MjYuMzU2NTg4MjkzWiIsImNyZWF0ZWRfYnkiOiJDT1BZIGF3cy1jcmVkZW50aWFscy50eHQgL2V0Yy9jcmVkZW50aWFscy50eHQgIyBidWlsZGtpdCIsImNvbW1lbnQiOiJidWlsZGtpdC5kb2NrZXJmaWxlLnYwIn0seyJjcmVhdGVkIjoiMjAyMi0wNi0yOFQyMzoxMToyNi4zODQ2ODY1OFoiLCJjcmVhdGVkX2J5IjoiQ09QWSBpZF9yc2EgaWRfcnNhLnB1YiAvcm9vdC8gIyBidWlsZGtpdCIsImNvbW1lbnQiOiJidWlsZGtpdC5kb2NrZXJmaWxlLnYwIn0seyJjcmVhdGVkIjoiMjAyMi0wNi0yOFQyMzoxMToyNi40MDczNzE1MzZaIiwiY3JlYXRlZF9ieSI6IkNPUFkgYmFkLXNjcmlwdC5zaCAvYmluL29rLXNjcmlwdC5zaCAjIGJ1aWxka2l0IiwiY29tbWVudCI6ImJ1aWxka2l0LmRvY2tlcmZpbGUudjAifSx7ImNyZWF0ZWQiOiIyMDIyLTA2LTI4VDIzOjExOjI2LjQzNDE1NTc5NVoiLCJjcmVhdGVkX2J5IjoiQ09QWSBiYWQtc2NyaXB0LnNoIC9iaW4vYmFkLXNjcmlwdC5zaCAjIGJ1aWxka2l0IiwiY29tbWVudCI6ImJ1aWxka2l0LmRvY2tlcmZpbGUudjAifSx7ImNyZWF0ZWQiOiIyMDIyLTA2LTI4VDIzOjExOjI2LjQ1NzkxMjA5M1oiLCJjcmVhdGVkX2J5IjoiQ09QWSBiYWQtc2NyaXB0LnNoIC9iaW4vYmFkMi1zY3JpcHQuc2ggIyBidWlsZGtpdCIsImNvbW1lbnQiOiJidWlsZGtpdC5kb2NrZXJmaWxlLnYwIn0seyJjcmVhdGVkIjoiMjAyMi0wNi0yOFQyMzoxMToyNy40ODYyNzU5ODhaIiwiY3JlYXRlZF9ieSI6IlJVTiAvYmluL3NoIC1jIGNobW9kICt4ICAgIC9iaW4vKi1zY3JpcHQuc2ggIyBidWlsZGtpdCIsImNvbW1lbnQiOiJidWlsZGtpdC5kb2NrZXJmaWxlLnYwIn0seyJjcmVhdGVkIjoiMjAyMi0wNi0yOFQyMzoxMToyNy44NjE5ODIyMzFaIiwiY3JlYXRlZF9ieSI6IlJVTiAvYmluL3NoIC1jIGNobW9kIHUrcyAgL2Jpbi9iYWQtc2NyaXB0LnNoICMgYnVpbGRraXQiLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCJ9LHsiY3JlYXRlZCI6IjIwMjItMDYtMjhUMjM6MTE6MjguMzE0MTc5Nzc3WiIsImNyZWF0ZWRfYnkiOiJSVU4gL2Jpbi9zaCAtYyBjaG1vZCBnK3MgIC9iaW4vYmFkMi1zY3JpcHQuc2ggIyBidWlsZGtpdCIsImNvbW1lbnQiOiJidWlsZGtpdC5kb2NrZXJmaWxlLnYwIn0seyJjcmVhdGVkIjoiMjAyMi0wNi0yOFQyMzoxMTozMC4wMDI1NTA0NDdaIiwiY3JlYXRlZF9ieSI6IlJVTiAvYmluL3NoIC1jIGFwayBhZGQgY3VybCB0YXIgIyBidWlsZGtpdCIsImNvbW1lbnQiOiJidWlsZGtpdC5kb2NrZXJmaWxlLnYwIn0seyJjcmVhdGVkIjoiMjAyMi0wNi0yOFQyMzoxMTozMi41OTczNzA4MDZaIiwiY3JlYXRlZF9ieSI6IlJVTiAvYmluL3NoIC1jIGN1cmwgaHR0cHM6Ly9hcmNoaXZlLmFwYWNoZS5vcmcvZGlzdC9sb2dnaW5nL2xvZzRqLzIuMC4xL2FwYWNoZS1sb2c0ai0yLjAuMS1iaW4udGFyLmd6IC1vICAvYXBhY2hlLWxvZzRqLTIuMC4xLWJpbi50YXIuZ3ogIyBidWlsZGtpdCIsImNvbW1lbnQiOiJidWlsZGtpdC5kb2NrZXJmaWxlLnYwIn0seyJjcmVhdGVkIjoiMjAyMi0wNi0yOFQyMzoxMTozMi44ODc4NzcwNTNaIiwiY3JlYXRlZF9ieSI6IlJVTiAvYmluL3NoIC1jIGxzIC1sIC8gIyBidWlsZGtpdCIsImNvbW1lbnQiOiJidWlsZGtpdC5kb2NrZXJmaWxlLnYwIn0seyJjcmVhdGVkIjoiMjAyMi0wNi0yOFQyMzoxMTozMy4zNjkwNTg2NjJaIiwiY3JlYXRlZF9ieSI6IlJVTiAvYmluL3NoIC1jIGNkIC8gXHUwMDI2XHUwMDI2IHRhciB4enZmIC9hcGFjaGUtbG9nNGotMi4wLjEtYmluLnRhci5neiAjIGJ1aWxka2l0IiwiY29tbWVudCI6ImJ1aWxka2l0LmRvY2tlcmZpbGUudjAifSx7ImNyZWF0ZWQiOiIyMDIyLTA2LTI4VDIzOjExOjMzLjYyODkzODYxM1oiLCJjcmVhdGVkX2J5IjoiUlVOIC9iaW4vc2ggLWMgbHMgLWwgLyAjIGJ1aWxka2l0IiwiY29tbWVudCI6ImJ1aWxka2l0LmRvY2tlcmZpbGUudjAifSx7ImNyZWF0ZWQiOiIyMDIyLTA2LTI4VDIzOjExOjMzLjYyODkzODYxM1oiLCJjcmVhdGVkX2J5IjoiQ01EIFtcInNsZWVwIDFcIl0iLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCIsImVtcHR5X2xheWVyIjp0cnVlfV0sIm9zIjoibGludXgiLCJyb290ZnMiOnsidHlwZSI6ImxheWVycyIsImRpZmZfaWRzIjpbInNoYTI1Njo4ZDNhYzM0ODk5OTY0MjNmNTNkNjA4N2M4MTE4MDAwNjI2M2I3OWYyMDZkM2ZkZWM5ZTY2ZjBlMjdjZWI4NzU5Iiwic2hhMjU2Ojc3MTQwNjEzODQ4MDViNzg0NTRjNWE2M2VkYTJhZDUyM2JmNWM0YjQ5MzViZTMyN2JlZGMwMDg1MjM1MzU5ZmQiLCJzaGEyNTY6YTZhNzAzMjY1Y2QyNGMyM2M4ZjViNGRmZmIwY2U0NjdkZWJlZmY2NjUxOWRmMDg3NDUwMjE2NzY5MDMzNDQxYiIsInNoYTI1NjpkZmEzZTg2YzUxYjU1YjBkOThhYWIyMDM2OGQ4M2Y1MWNjZGNmNjEzNWFkMGUyMGU2ZDc5NTkwYjhiMDE2MzQ2Iiwic2hhMjU2OmIzMGM2MDQxZGIxMmY2NDUwNDkwODliMTIwNmY5YzE5NDJkMTVlZjgyOGU1MzM0ZTIzYTZkZTcxNzVhZDk1ZDciLCJzaGEyNTY6ZDY3NjRjOTI1MjRmNzA5ODQ3MTJiOWRjMDRkOTIwYzc5YjU5MzAxMjAwMDYyMTZjMWQ4YWQ0MjE4NDM3MzIwNiIsInNoYTI1Njo0ZDE2ZDI2ZDVmMDg2NTAzOTAyODFiNDhmNGNiMjBkMDg3Yzk3ZmRmMGU3ZDZkNTIzZGQ1NjQxYWIxYmFjYmRhIiwic2hhMjU2OjM2MjJmOGUzOWViNTA1MzNjNGU1NWY2MGViMTIwN2QzOTljOGRjYTc0ZDZmNDhjMjM0N2I1ZjhhNzZjM2JkYjAiLCJzaGEyNTY6NTI2NDhiNmE4MDA5OGRlOTg2NzM3ZWU5YWJhMGRkOWRjYjcwYjg4NGNmNTE0Y2UxMmMxNGZjMTVlNTkxZWEyYyIsInNoYTI1Njo2NmNhOWYzZWM3ZmExZDEyOWFhZWJkYzU2MDk2NzJlNDk2ZmQwZWE5ZDgxNWEwMTM0MDkxOGFmYTlmMGNmYzdiIiwic2hhMjU2OmEzMWRlZTUxMjJlOTEyOGZkNWU2NzZmMGVlZmIyNGUwYWYxNzBkNTI3MGI3ZjZjZTc3ZmEwNGJlODEwZGQwZWYiLCJzaGEyNTY6YTM3Zjk5M2IwZTU2OWEyYjY1NzI3NDRmMTI4NzhjMzI2Zjg4YmVjZGEzZDM3ZTQ4Mjc0NTdkYzljNzA1OWFkNCIsInNoYTI1NjpjZTA3NDE5NmQ2MGU2ODVkYzM1NzgwMWY1OTEwOGVmMjgyZGVhNTA4MDlhOTg0ODgyNjM5Y2U4YjIwYjgyNzYwIiwic2hhMjU2OjliYjZjZTgyMGFlNWU5NzdiNDQ0YTcyMjM3NDQxYzYzNzcwZjAxMzU0MWFmNjJjNzQ4YjVlZjU2YTQ4ZGYyMmUiLCJzaGEyNTY6YTZlZGE1ZjNmMmQ1YmU4NWY5NzliMjkyYTA3ZTUxYjY5NjAwNTI0NDg4ZWMwZmYwNDY1NzU0OTlkMmIyZTFjOSIsInNoYTI1NjoxYzVhOTg1ZTYzNzg1MjgzOGQxZTYxZDYwYTU1YTNkNmQwMDhlNWI5MDBlZTBiYWFkMzcxODM5Zjk5Zjc4ODIwIl19fQ==",
+        "repoDigests": [],
+        "architecture": "amd64",
+        "os": "linux"
+      }
+    },
+    "distro": {
+      "name": "alpine",
+      "version": "3.15.0",
+      "idLike": []
+    },
+    "descriptor": {
+      "name": "grype",
+      "version": "0.42.0",
+      "configuration": {
+        "configPath": "",
+        "output": "json",
+        "file": "",
+        "distro": "",
+        "add-cpes-if-none": false,
+        "output-template-file": "",
+        "quiet": false,
+        "check-for-app-update": true,
+        "only-fixed": false,
+        "platform": "",
+        "search": {
+          "scope": "Squashed",
+          "unindexed-archives": false,
+          "indexed-archives": true
+        },
+        "ignore": null,
+        "exclude": [],
+        "db": {
+          "cache-dir": "/root/.cache/grype/db",
+          "update-url": "https://toolbox-data.anchore.io/grype/databases/listing.json",
+          "ca-cert": "",
+          "auto-update": true,
+          "validate-by-hash-on-start": false,
+          "validate-age": true,
+          "max-allowed-built-age": 432000000000000
+        },
+        "externalSources": {
+          "enable": false,
+          "maven": {
+            "searchUpstreamBySha1": true,
+            "baseUrl": "https://search.maven.org/solrsearch/select"
+          }
+        },
+        "dev": {
+          "profile-cpu": false,
+          "profile-mem": false
+        },
+        "fail-on-severity": "",
+        "registry": {
+          "insecure-skip-tls-verify": false,
+          "insecure-use-http": false,
+          "auth": []
+        },
+        "log": {
+          "structured": false,
+          "level": "",
+          "file": ""
+        },
+        "attestation": {
+          "public-key": "",
+          "skip-verification": false
+        }
+      },
+      "db": {
+        "built": "2022-07-11T08:18:09Z",
+        "schemaVersion": 4,
+        "location": "/root/.cache/grype/db/4",
+        "checksum": "sha256:c8900fea51b9db11d0196542853948cd12c54522178ed2dc3922cd4de9c95d6c",
+        "error": null
+      }
+    }
+  },
+  "docker": {
+    "image": "veray-insecure:latest",
+    "summary": {
+      "fatal": 2,
+      "warn": 2,
+      "info": 3,
+      "skip": 0,
+      "pass": 9
+    },
+    "details": [
+      {
+        "code": "CIS-DI-0010",
+        "title": "Do not store credential in environment variables/files",
+        "level": "FATAL",
+        "alerts": [
+          "Suspicious filename found : root/id_rsa (You can suppress it with \"-af id_rsa\")"
+        ]
+      },
+
+      {
+        "code": "CIS-DI-0001",
+        "title": "Create a user for the container",
+        "level": "WARN",
+        "alerts": [
+          "Last user should not be root"
+        ]
+      },
+      {
+        "code": "CIS-DI-0005",
+        "title": "Enable Content trust for Docker",
+        "level": "INFO",
+        "alerts": [
+          "export DOCKER_CONTENT_TRUST=1 before docker pull/build"
+        ]
+      }
+    ]
+  },
+  "secrets": {
+    "SchemaVersion": 2,
+    "ArtifactName": "veray-insecure:latest",
+    "ArtifactType": "container_image",
+    "Metadata": {
+      "OS": {
+        "Family": "alpine",
+        "Name": "3.15.0"
+      },
+      "ImageID": "sha256:9d56340ed47aa28c9c99aa51a999b5882a55085d98d0ed2986959d5e58de2a82",
+      "DiffIDs": [
+        "sha256:8d3ac3489996423f53d6087c81180006263b79f206d3fdec9e66f0e27ceb8759",
+        "sha256:7714061384805b78454c5a63eda2ad523bf5c4b4935be327bedc0085235359fd",
+        "sha256:a6a703265cd24c23c8f5b4dffb0ce467debeff66519df087450216769033441b",
+        "sha256:dfa3e86c51b55b0d98aab20368d83f51ccdcf6135ad0e20e6d79590b8b016346",
+        "sha256:b30c6041db12f645049089b1206f9c1942d15ef828e5334e23a6de7175ad95d7",
+        "sha256:d6764c92524f70984712b9dc04d920c79b5930120006216c1d8ad42184373206",
+        "sha256:4d16d26d5f08650390281b48f4cb20d087c97fdf0e7d6d523dd5641ab1bacbda",
+        "sha256:3622f8e39eb50533c4e55f60eb1207d399c8dca74d6f48c2347b5f8a76c3bdb0",
+        "sha256:52648b6a80098de986737ee9aba0dd9dcb70b884cf514ce12c14fc15e591ea2c",
+        "sha256:66ca9f3ec7fa1d129aaebdc5609672e496fd0ea9d815a01340918afa9f0cfc7b",
+        "sha256:a31dee5122e9128fd5e676f0eefb24e0af170d5270b7f6ce77fa04be810dd0ef",
+        "sha256:a37f993b0e569a2b6572744f12878c326f88becda3d37e4827457dc9c7059ad4",
+        "sha256:ce074196d60e685dc357801f59108ef282dea50809a984882639ce8b20b82760",
+        "sha256:9bb6ce820ae5e977b444a72237441c63770f013541af62c748b5ef56a48df22e",
+        "sha256:a6eda5f3f2d5be85f979b292a07e51b69600524488ec0ff046575499d2b2e1c9",
+        "sha256:1c5a985e637852838d1e61d60a55a3d6d008e5b900ee0baad371839f99f78820"
+      ],
+      "RepoTags": [
+        "veray-insecure:latest"
+      ],
+      "ImageConfig": {
+        "architecture": "amd64",
+        "created": "2022-06-28T23:11:33.628938613Z",
+        "history": [
+          {
+            "created": "2021-11-24T20:19:40Z",
+            "created_by": "/bin/sh -c #(nop) ADD file:9233f6f2237d79659a9521f7e390df217cec49f1a8aa3a12147bbca1956acdb9 in / "
+          },
+          {
+            "created": "2021-11-24T20:19:40Z",
+            "created_by": "/bin/sh -c #(nop)  CMD [\"/bin/sh\"]",
+            "empty_layer": true
+          },
+          {
+            "created": "2022-06-28T23:11:26Z",
+            "created_by": "COPY dummy.txt /dummy.txt # buildkit",
+            "comment": "buildkit.dockerfile.v0"
+          },
+          {
+            "created": "2022-06-28T23:11:26Z",
+            "created_by": "COPY insecure-config.txt /config.txt # buildkit",
+            "comment": "buildkit.dockerfile.v0",
+            "empty_layer": true
+          },
+          {
+            "created": "2022-06-28T23:11:26Z",
+            "created_by": "COPY aws-credentials.txt /etc/credentials.txt # buildkit",
+            "comment": "buildkit.dockerfile.v0"
+          },
+          {
+            "created": "2022-06-28T23:11:26Z",
+            "created_by": "COPY id_rsa id_rsa.pub /root/ # buildkit",
+            "comment": "buildkit.dockerfile.v0"
+          },
+          {
+            "created": "2022-06-28T23:11:26Z",
+            "created_by": "COPY bad-script.sh /bin/ok-script.sh # buildkit",
+            "comment": "buildkit.dockerfile.v0"
+          },
+          {
+            "created": "2022-06-28T23:11:26Z",
+            "created_by": "COPY bad-script.sh /bin/bad-script.sh # buildkit",
+            "comment": "buildkit.dockerfile.v0"
+          },
+          {
+            "created": "2022-06-28T23:11:26Z",
+            "created_by": "COPY bad-script.sh /bin/bad2-script.sh # buildkit",
+            "comment": "buildkit.dockerfile.v0"
+          },
+          {
+            "created": "2022-06-28T23:11:27Z",
+            "created_by": "RUN /bin/sh -c chmod +x    /bin/*-script.sh # buildkit",
+            "comment": "buildkit.dockerfile.v0"
+          },
+          {
+            "created": "2022-06-28T23:11:27Z",
+            "created_by": "RUN /bin/sh -c chmod u+s  /bin/bad-script.sh # buildkit",
+            "comment": "buildkit.dockerfile.v0"
+          },
+          {
+            "created": "2022-06-28T23:11:28Z",
+            "created_by": "RUN /bin/sh -c chmod g+s  /bin/bad2-script.sh # buildkit",
+            "comment": "buildkit.dockerfile.v0"
+          },
+          {
+            "created": "2022-06-28T23:11:30Z",
+            "created_by": "RUN /bin/sh -c apk add curl tar # buildkit",
+            "comment": "buildkit.dockerfile.v0"
+          },
+          {
+            "created": "2022-06-28T23:11:32Z",
+            "created_by": "RUN /bin/sh -c curl https://archive.apache.org/dist/logging/log4j/2.0.1/apache-log4j-2.0.1-bin.tar.gz -o  /apache-log4j-2.0.1-bin.tar.gz # buildkit",
+            "comment": "buildkit.dockerfile.v0"
+          },
+          {
+            "created": "2022-06-28T23:11:32Z",
+            "created_by": "RUN /bin/sh -c ls -l / # buildkit",
+            "comment": "buildkit.dockerfile.v0",
+            "empty_layer": true
+          },
+          {
+            "created": "2022-06-28T23:11:33Z",
+            "created_by": "RUN /bin/sh -c cd / && tar xzvf /apache-log4j-2.0.1-bin.tar.gz # buildkit",
+            "comment": "buildkit.dockerfile.v0"
+          },
+          {
+            "created": "2022-06-28T23:11:33Z",
+            "created_by": "RUN /bin/sh -c ls -l / # buildkit",
+            "comment": "buildkit.dockerfile.v0",
+            "empty_layer": true
+          },
+          {
+            "created": "2022-06-28T23:11:33Z",
+            "created_by": "CMD [\"sleep 1\"]",
+            "comment": "buildkit.dockerfile.v0",
+            "empty_layer": true
+          }
+        ],
+        "os": "linux",
+        "rootfs": {
+          "type": "layers",
+          "diff_ids": [
+            "sha256:8d3ac3489996423f53d6087c81180006263b79f206d3fdec9e66f0e27ceb8759",
+            "sha256:7714061384805b78454c5a63eda2ad523bf5c4b4935be327bedc0085235359fd",
+            "sha256:a6a703265cd24c23c8f5b4dffb0ce467debeff66519df087450216769033441b",
+            "sha256:dfa3e86c51b55b0d98aab20368d83f51ccdcf6135ad0e20e6d79590b8b016346",
+            "sha256:b30c6041db12f645049089b1206f9c1942d15ef828e5334e23a6de7175ad95d7",
+            "sha256:d6764c92524f70984712b9dc04d920c79b5930120006216c1d8ad42184373206",
+            "sha256:4d16d26d5f08650390281b48f4cb20d087c97fdf0e7d6d523dd5641ab1bacbda",
+            "sha256:3622f8e39eb50533c4e55f60eb1207d399c8dca74d6f48c2347b5f8a76c3bdb0",
+            "sha256:52648b6a80098de986737ee9aba0dd9dcb70b884cf514ce12c14fc15e591ea2c",
+            "sha256:66ca9f3ec7fa1d129aaebdc5609672e496fd0ea9d815a01340918afa9f0cfc7b",
+            "sha256:a31dee5122e9128fd5e676f0eefb24e0af170d5270b7f6ce77fa04be810dd0ef",
+            "sha256:a37f993b0e569a2b6572744f12878c326f88becda3d37e4827457dc9c7059ad4",
+            "sha256:ce074196d60e685dc357801f59108ef282dea50809a984882639ce8b20b82760",
+            "sha256:9bb6ce820ae5e977b444a72237441c63770f013541af62c748b5ef56a48df22e",
+            "sha256:a6eda5f3f2d5be85f979b292a07e51b69600524488ec0ff046575499d2b2e1c9",
+            "sha256:1c5a985e637852838d1e61d60a55a3d6d008e5b900ee0baad371839f99f78820"
+          ]
+        },
+        "config": {
+          "Cmd": [
+            "sleep 1"
+          ],
+          "Env": [
+            "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+          ],
+          "ArgsEscaped": true
+        }
+      }
+    },
+    "Results": [
+      {
+        "Target": "/etc/credentials.txt",
+        "Class": "secret",
+        "Secrets": [
+          {
+            "RuleID": "aws-access-key-id",
+            "Category": "AWS",
+            "Severity": "CRITICAL",
+            "Title": "AWS Access Key ID",
+            "StartLine": 5,
+            "EndLine": 5,
+            "Match": "aws_access_key_id=*****"
+          },
+          {
+            "RuleID": "aws-secret-access-key",
+            "Category": "AWS",
+            "Severity": "CRITICAL",
+            "Title": "AWS Secret Access Key",
+            "StartLine": 6,
+            "EndLine": 6,
+            "Match": "aws_secret_access_key=*****"
+          }
+        ]
+      },
+      {
+        "Target": "/root/id_rsa",
+        "Class": "secret",
+        "Secrets": [
+          {
+            "RuleID": "private-key",
+            "Category": "AsymmetricPrivateKey",
+            "Severity": "HIGH",
+            "Title": "Asymmetric Private Key",
+            "StartLine": 1,
+            "EndLine": 1,
+            "Match": "-----BEGIN RSA PRIVATE KEY-----"
+          }
+        ]
+      }
+    ]
+  },
+  "iac": {
+    "SchemaVersion": 2,
+    "ArtifactName": "/local-context",
+    "ArtifactType": "filesystem",
+    "Metadata": {
+      "ImageConfig": {
+        "architecture": "",
+        "created": "0001-01-01T00:00:00Z",
+        "os": "",
+        "rootfs": {
+          "type": "",
+          "diff_ids": null
+        },
+        "config": {}
+      }
+    },
+    "Results": [
+      {
+        "Target": "insecure-test/Dockerfile",
+        "Class": "config",
+        "Type": "dockerfile",
+        "MisconfSummary": {
+          "Successes": 19,
+          "Failures": 3,
+          "Exceptions": 0
+        },
+        "Misconfigurations": [
+          {
+            "Type": "Dockerfile Security Check",
+            "ID": "DS001",
+            "Title": "':latest' tag used",
+            "Description": "When using a 'FROM' statement you should use a specific tag to avoid uncontrolled behavior when the image is updated.",
+            "Message": "Specify a tag in the 'FROM' statement for image 'alpine'",
+            "Namespace": "builtin.dockerfile.DS001",
+            "Query": "data.builtin.dockerfile.DS001.deny",
+            "Resolution": "Add a tag to the image in the 'FROM' statement",
+            "Severity": "MEDIUM",
+            "PrimaryURL": "https://avd.aquasec.com/misconfig/ds001",
+            "References": [
+              "https://avd.aquasec.com/misconfig/ds001"
+            ],
+            "Status": "FAIL",
+            "Layer": {},
+            "CauseMetadata": {
+              "Provider": "Dockerfile",
+              "Service": "general",
+              "StartLine": 2,
+              "EndLine": 2,
+              "Code": {
+                "Lines": [
+                  {
+                    "Number": 2,
+                    "Content": "FROM alpine",
+                    "IsCause": true,
+                    "Annotation": "",
+                    "Truncated": false,
+                    "FirstCause": true,
+                    "LastCause": true
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Target": "insecure-test/insecure.yaml",
+        "Class": "config",
+        "Type": "kubernetes",
+        "MisconfSummary": {
+          "Successes": 17,
+          "Failures": 17,
+          "Exceptions": 0
+        },
+        "Misconfigurations": [
+          {
+            "Type": "Kubernetes Security Check",
+            "ID": "KSV001",
+            "Title": "Process can elevate its own privileges",
+            "Description": "A program inside the container can elevate its own privileges and run as root, which might give the program control over the container and node.",
+            "Message": "Container 'hello' of Pod 'hello' should set 'securityContext.allowPrivilegeEscalation' to false",
+            "Namespace": "builtin.kubernetes.KSV001",
+            "Query": "data.builtin.kubernetes.KSV001.deny",
+            "Resolution": "Set 'set containers[].securityContext.allowPrivilegeEscalation' to 'false'.",
+            "Severity": "MEDIUM",
+            "PrimaryURL": "https://avd.aquasec.com/misconfig/ksv001",
+            "References": [
+              "https://kubernetes.io/docs/concepts/security/pod-security-standards/#restricted",
+              "https://avd.aquasec.com/misconfig/ksv001"
+            ],
+            "Status": "FAIL",
+            "Layer": {},
+            "CauseMetadata": {
+              "Provider": "Kubernetes",
+              "Service": "general",
+              "StartLine": 11,
+              "EndLine": 13,
+              "Code": {
+                "Lines": [
+                  {
+                    "Number": 11,
+                    "Content": "    - command: [\"sh\", \"-c\", \"echo 'Hello' && sleep 1h\"]",
+                    "IsCause": true,
+                    "Annotation": "",
+                    "Truncated": false,
+                    "FirstCause": true,
+                    "LastCause": false
+                  },
+                  {
+                    "Number": 12,
+                    "Content": "      image: busybox:latest",
+                    "IsCause": true,
+                    "Annotation": "",
+                    "Truncated": false,
+                    "FirstCause": false,
+                    "LastCause": false
+                  },
+                  {
+                    "Number": 13,
+                    "Content": "      name: hello",
+                    "IsCause": true,
+                    "Annotation": "",
+                    "Truncated": false,
+                    "FirstCause": false,
+                    "LastCause": true
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Type": "Kubernetes Security Check",
+            "ID": "KSV003",
+            "Title": "Default capabilities not dropped",
+            "Description": "The container should drop all default capabilities and add only those that are needed for its execution.",
+            "Message": "Container 'hello' of Pod 'hello' should add 'ALL' to 'securityContext.capabilities.drop'",
+            "Namespace": "builtin.kubernetes.KSV003",
+            "Query": "data.builtin.kubernetes.KSV003.deny",
+            "Resolution": "Add 'ALL' to containers[].securityContext.capabilities.drop.",
+            "Severity": "LOW",
+            "PrimaryURL": "https://avd.aquasec.com/misconfig/ksv003",
+            "References": [
+              "https://kubesec.io/basics/containers-securitycontext-capabilities-drop-index-all/",
+              "https://avd.aquasec.com/misconfig/ksv003"
+            ],
+            "Status": "FAIL",
+            "Layer": {},
+            "CauseMetadata": {
+              "Provider": "Kubernetes",
+              "Service": "general",
+              "StartLine": 11,
+              "EndLine": 13,
+              "Code": {
+                "Lines": [
+                  {
+                    "Number": 11,
+                    "Content": "    - command: [\"sh\", \"-c\", \"echo 'Hello' && sleep 1h\"]",
+                    "IsCause": true,
+                    "Annotation": "",
+                    "Truncated": false,
+                    "FirstCause": true,
+                    "LastCause": false
+                  },
+                  {
+                    "Number": 12,
+                    "Content": "      image: busybox:latest",
+                    "IsCause": true,
+                    "Annotation": "",
+                    "Truncated": false,
+                    "FirstCause": false,
+                    "LastCause": false
+                  },
+                  {
+                    "Number": 13,
+                    "Content": "      name: hello",
+                    "IsCause": true,
+                    "Annotation": "",
+                    "Truncated": false,
+                    "FirstCause": false,
+                    "LastCause": true
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Type": "Kubernetes Security Check",
+            "ID": "KSV020",
+            "Title": "Runs with low user ID",
+            "Description": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+            "Message": "Container 'hello' of Pod 'hello' should set 'securityContext.runAsUser' > 10000",
+            "Namespace": "builtin.kubernetes.KSV020",
+            "Query": "data.builtin.kubernetes.KSV020.deny",
+            "Resolution": "Set 'containers[].securityContext.runAsUser' to an integer > 10000.",
+            "Severity": "LOW",
+            "PrimaryURL": "https://avd.aquasec.com/misconfig/ksv020",
+            "References": [
+              "https://kubesec.io/basics/containers-securitycontext-runasuser/",
+              "https://avd.aquasec.com/misconfig/ksv020"
+            ],
+            "Status": "FAIL",
+            "Layer": {},
+            "CauseMetadata": {
+              "Provider": "Kubernetes",
+              "Service": "general",
+              "StartLine": 11,
+              "EndLine": 13,
+              "Code": {
+                "Lines": [
+                  {
+                    "Number": 11,
+                    "Content": "    - command: [\"sh\", \"-c\", \"echo 'Hello' && sleep 1h\"]",
+                    "IsCause": true,
+                    "Annotation": "",
+                    "Truncated": false,
+                    "FirstCause": true,
+                    "LastCause": false
+                  },
+                  {
+                    "Number": 12,
+                    "Content": "      image: busybox:latest",
+                    "IsCause": true,
+                    "Annotation": "",
+                    "Truncated": false,
+                    "FirstCause": false,
+                    "LastCause": false
+                  },
+                  {
+                    "Number": 13,
+                    "Content": "      name: hello",
+                    "IsCause": true,
+                    "Annotation": "",
+                    "Truncated": false,
+                    "FirstCause": false,
+                    "LastCause": true
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Type": "Kubernetes Security Check",
+            "ID": "KSV021",
+            "Title": "Runs with low group ID",
+            "Description": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+            "Message": "Container 'hello' of Pod 'hello' should set 'securityContext.runAsGroup' > 10000",
+            "Namespace": "builtin.kubernetes.KSV021",
+            "Query": "data.builtin.kubernetes.KSV021.deny",
+            "Resolution": "Set 'containers[].securityContext.runAsGroup' to an integer > 10000.",
+            "Severity": "LOW",
+            "PrimaryURL": "https://avd.aquasec.com/misconfig/ksv021",
+            "References": [
+              "https://kubesec.io/basics/containers-securitycontext-runasuser/",
+              "https://avd.aquasec.com/misconfig/ksv021"
+            ],
+            "Status": "FAIL",
+            "Layer": {},
+            "CauseMetadata": {
+              "Provider": "Kubernetes",
+              "Service": "general",
+              "StartLine": 11,
+              "EndLine": 13,
+              "Code": {
+                "Lines": [
+                  {
+                    "Number": 11,
+                    "Content": "    - command: [\"sh\", \"-c\", \"echo 'Hello' && sleep 1h\"]",
+                    "IsCause": true,
+                    "Annotation": "",
+                    "Truncated": false,
+                    "FirstCause": true,
+                    "LastCause": false
+                  },
+                  {
+                    "Number": 12,
+                    "Content": "      image: busybox:latest",
+                    "IsCause": true,
+                    "Annotation": "",
+                    "Truncated": false,
+                    "FirstCause": false,
+                    "LastCause": false
+                  },
+                  {
+                    "Number": 13,
+                    "Content": "      name: hello",
+                    "IsCause": true,
+                    "Annotation": "",
+                    "Truncated": false,
+                    "FirstCause": false,
+                    "LastCause": true
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Target": "verascanner/Dockerfile",
+        "Class": "config",
+        "Type": "dockerfile",
+        "MisconfSummary": {
+          "Successes": 20,
+          "Failures": 2,
+          "Exceptions": 0
+        },
+        "Misconfigurations": [
+          {
+            "Type": "Dockerfile Security Check",
+            "ID": "DS002",
+            "Title": "Image user should not be 'root'",
+            "Description": "Running containers with 'root' user can lead to a container escape situation. It is a best practice to run containers as non-root users, which can be done by adding a 'USER' statement to the Dockerfile.",
+            "Message": "Specify at least 1 USER command in Dockerfile with non-root user as argument",
+            "Namespace": "builtin.dockerfile.DS002",
+            "Query": "data.builtin.dockerfile.DS002.deny",
+            "Resolution": "Add 'USER <non root user name>' line to the Dockerfile",
+            "Severity": "HIGH",
+            "PrimaryURL": "https://avd.aquasec.com/misconfig/ds002",
+            "References": [
+              "https://docs.docker.com/develop/develop-images/dockerfile_best-practices/",
+              "https://avd.aquasec.com/misconfig/ds002"
+            ],
+            "Status": "FAIL",
+            "Layer": {},
+            "CauseMetadata": {
+              "Provider": "Dockerfile",
+              "Service": "general",
+              "Code": {
+                "Lines": null
+              }
+            }
+          },
+          {
+            "Type": "Dockerfile Security Check",
+            "ID": "DS005",
+            "Title": "ADD instead of COPY",
+            "Description": "You should use COPY instead of ADD unless you want to extract a tar file. Note that an ADD command will extract a tar file, which adds the risk of Zip-based vulnerabilities. Accordingly, it is advised to use a COPY command, which does not extract tar files.",
+            "Message": "Consider using 'COPY https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /tini' command instead of 'ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /tini'",
+            "Namespace": "builtin.dockerfile.DS005",
+            "Query": "data.builtin.dockerfile.DS005.deny",
+            "Resolution": "Use COPY instead of ADD",
+            "Severity": "LOW",
+            "PrimaryURL": "https://avd.aquasec.com/misconfig/ds005",
+            "References": [
+              "https://docs.docker.com/engine/reference/builder/#add",
+              "https://avd.aquasec.com/misconfig/ds005"
+            ],
+            "Status": "FAIL",
+            "Layer": {},
+            "CauseMetadata": {
+              "Provider": "Dockerfile",
+              "Service": "general",
+              "StartLine": 14,
+              "EndLine": 14,
+              "Code": {
+                "Lines": [
+                  {
+                    "Number": 14,
+                    "Content": "ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /tini",
+                    "IsCause": true,
+                    "Annotation": "",
+                    "Truncated": false,
+                    "FirstCause": true,
+                    "LastCause": true
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": [
+    {
+      "filename": "sha256:9d56340ed47aa28c9c99aa51a999b5882a55085d98d0ed2986959d5e58de2a82.files.json",
+      "namespace": "main",
+      "successes": 1960,
+      "failures": [
+        {
+          "msg": "4.8 Level 1 benchmark - setgid file permission validation: (/bin/bad-script.sh, 40000755)"
+        },
+        {
+          "msg": "4.8 Level 1 benchmark - setuid file permission validation: (/bin/bad2-script.sh, 20000755)"
+        }
+      ]
+    }
+  ]
+}

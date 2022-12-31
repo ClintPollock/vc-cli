@@ -1,0 +1,168 @@
+{
+  "_links": {
+    "root": {
+      "href": "/"
+    },
+    "self": {
+      "href": "/scans/ea4e434c-8143-4c4a-b268-868e093f8cb4/findings"
+    },
+    "help": {
+      "href": "https://help.veracode.com/reader/tS9CaFwL4_lbIEWWomsJoA/ovfZGgu96UINQxIuTqRDwg"
+    }
+  },
+  "scan_id": "ea4e434c-8143-4c4a-b268-868e093f8cb4",
+  "scan_status": "SUCCESS",
+  "message": "Scan successful. Results size: 6389 bytes",
+  "modules": [
+    "pipeline-scan.jar"
+  ],
+  "modules_count": 1,
+  "findings": [
+    {
+      "title": "org.slf4j.Logger.debug",
+      "issue_id": 1003,
+      "gob": "B",
+      "severity": 3,
+      "issue_type_id": "taint",
+      "issue_type": "Improper Output Neutralization for Logs",
+      "cwe_id": "117",
+      "display_text": "\u003cspan\u003eThis call to org.slf4j.Logger.debug() could result in a log forging attack.  Writing untrusted data into a log file allows an attacker to forge log entries or inject malicious content into log files.  Corrupted log files can be used to cover an attacker\u0027s tracks or as a delivery mechanism for an attack on a log viewing or processing utility.  For example, if a web administrator uses a browser-based utility to review logs, a cross-site scripting attack might be possible. The first argument to debug() contains tainted data from the variable escapedString. The tainted data originated from an earlier call to org.apache.http.impl.client.CloseableHttpClient.execute.\u003c/span\u003e \u003cspan\u003eAvoid directly embedding user input in log files when possible.  Sanitize untrusted data used to construct log entries by using a safe logging mechanism such as the OWASP ESAPI Logger, which will automatically remove unexpected carriage returns and line feeds and can be configured to use HTML entity encoding for non-alphanumeric data.  Alternatively, some of the XSS escaping functions from the OWASP Java Encoder project will also sanitize CRLF sequences.  Only create a custom blocklist when absolutely necessary.  Always validate untrusted input to ensure that it conforms to the expected format, using centralized data validation routines when possible.\u003c/span\u003e \u003cspan\u003eReferences: \u003ca href\u003d\"https://cwe.mitre.org/data/definitions/117.html\"\u003eCWE\u003c/a\u003e \u003ca href\u003d\"https://owasp.org/www-community/attacks/Log_Injection\"\u003eOWASP\u003c/a\u003e \u003ca href\u003d\"https://docs.veracode.com/r/review_cleansers?tocId\u003dnYnZqAenFFZmB75MQrZwuA\"\u003eSupported Cleansers\u003c/a\u003e\u003c/span\u003e",
+      "files": {
+        "source_file": {
+          "file": "com/veracode/security/logging/SecureLogger.java",
+          "line": 129,
+          "function_name": "debug",
+          "qualified_function_name": "com.veracode.security.logging.SecureLogger.debug",
+          "function_prototype": "void debug(java.lang.String)",
+          "scope": "com.veracode.security.logging.SecureLogger"
+        }
+      },
+      "flaw_match": {
+        "procedure_hash": "3872417880",
+        "prototype_hash": "3784629054",
+        "flaw_hash": "1486957064",
+        "flaw_hash_count": 1,
+        "flaw_hash_ordinal": 1,
+        "cause_hash": "748381785",
+        "cause_hash_count": 1,
+        "cause_hash_ordinal": 1,
+        "cause_hash2": "1522093433",
+        "cause_hash2_ordinal": "4"
+      },
+      "stack_dumps": {
+        "stack_dump": [
+          {
+            "Frame": [
+              {
+                "FrameId": "0",
+                "FunctionName": "error",
+                "SourceFile": "com/veracode/security/logging/SecureLogger.java",
+                "SourceLine": "332",
+                "SourceFileId": "191",
+                "QualifiedFunctionName": "com.veracode.security.logging.SecureLogger.error",
+                "FunctionPrototype": "void error(java.lang.String)",
+                "Scope": "com.veracode.security.logging.SecureLogger",
+                "RelativeLocation": "62",
+                "Comment": "Start taint trace"
+              },
+              {
+                "FrameId": "1",
+                "FunctionName": "escapeMessage",
+                "SourceFile": "com/veracode/security/logging/SecureLoggerUtil.java",
+                "SourceLine": "21",
+                "SourceFileId": "192",
+                "VarNames": "argument.replace()",
+                "QualifiedFunctionName": "com.veracode.security.logging.SecureLoggerUtil.escapeMessage",
+                "FunctionPrototype": "java.lang.String escapeMessage(java.lang.String)",
+                "Scope": "com.veracode.security.logging.SecureLoggerUtil",
+                "RelativeLocation": "98",
+                "Comment": {}
+              },
+              {
+                "FrameId": "2",
+                "FunctionName": "escapeMessage",
+                "SourceFile": "com/veracode/security/logging/SecureLoggerUtil.java",
+                "SourceLine": "17",
+                "SourceFileId": "192",
+                "QualifiedFunctionName": "com.veracode.security.logging.SecureLoggerUtil.escapeMessage",
+                "FunctionPrototype": "java.lang.String escapeMessage(java.lang.String)",
+                "Scope": "com.veracode.security.logging.SecureLoggerUtil",
+                "RelativeLocation": "0",
+                "Comment": {}
+              }
+	    ]
+	  }
+	]
+      },
+	"flaw_details_link": "https://downloads.veracode.com/securityscan/cwe/v4/java/117.html"
+    },
+    {
+      "title": "org.slf4j.Logger.error",
+      "issue_id": 1004,
+      "gob": "B",
+      "severity": 3,
+      "issue_type_id": "taint",
+      "issue_type": "Improper Output Neutralization for Logs",
+      "cwe_id": "117",
+      "display_text": "\u003cspan\u003eThis call to org.slf4j.Logger.error() could result in a log forging attack.  Writing untrusted data into a log file allows an attacker to forge log entries or inject malicious content into log files.  Corrupted log files can be used to cover an attacker\u0027s tracks or as a delivery mechanism for an attack on a log viewing or processing utility.  For example, if a web administrator uses a browser-based utility to review logs, a cross-site scripting attack might be possible. The first argument to error() contains tainted data from the variable escapedString. The tainted data originated from an earlier call to org.apache.http.impl.client.CloseableHttpClient.execute.\u003c/span\u003e \u003cspan\u003eAvoid directly embedding user input in log files when possible.  Sanitize untrusted data used to construct log entries by using a safe logging mechanism such as the OWASP ESAPI Logger, which will automatically remove unexpected carriage returns and line feeds and can be configured to use HTML entity encoding for non-alphanumeric data.  Alternatively, some of the XSS escaping functions from the OWASP Java Encoder project will also sanitize CRLF sequences.  Only create a custom blocklist when absolutely necessary.  Always validate untrusted input to ensure that it conforms to the expected format, using centralized data validation routines when possible.\u003c/span\u003e \u003cspan\u003eReferences: \u003ca href\u003d\"https://cwe.mitre.org/data/definitions/117.html\"\u003eCWE\u003c/a\u003e \u003ca href\u003d\"https://owasp.org/www-community/attacks/Log_Injection\"\u003eOWASP\u003c/a\u003e \u003ca href\u003d\"https://docs.veracode.com/r/review_cleansers?tocId\u003dnYnZqAenFFZmB75MQrZwuA\"\u003eSupported Cleansers\u003c/a\u003e\u003c/span\u003e",
+      "files": {
+        "source_file": {
+          "file": "com/veracode/security/logging/SecureLogger.java",
+          "line": 333,
+          "function_name": "error",
+          "qualified_function_name": "com.veracode.security.logging.SecureLogger.error",
+          "function_prototype": "void error(java.lang.String)",
+          "scope": "com.veracode.security.logging.SecureLogger"
+        }
+      },
+      "flaw_match": {
+        "procedure_hash": "2852339603",
+        "prototype_hash": "1229561840",
+        "flaw_hash": "1486957064",
+        "flaw_hash_count": 1,
+        "flaw_hash_ordinal": 1,
+        "cause_hash": "748381785",
+        "cause_hash_count": 1,
+        "cause_hash_ordinal": 1,
+        "cause_hash2": "1522093433",
+        "cause_hash2_ordinal": "4"
+      },
+      "flaw_details_link": "https://downloads.veracode.com/securityscan/cwe/v4/java/117.html"
+    },
+    {
+      "title": "exit",
+      "issue_id": 1000,
+      "gob": "B",
+      "severity": 2,
+      "issue_type_id": "guide",
+      "issue_type": "J2EE Bad Practices: Use of System.exit()",
+      "cwe_id": "382",
+      "display_text": "\u003cspan\u003eA J2EE application should not attempt to shut down its container.  A call to System.exit() is probably part of leftover debug code or code imported from a non-J2EE application.  Non-web applications may contain a main() method that calls System.exit(), but generally should not call it from other locations in the code.\u003c/span\u003e \u003cspan\u003eEnsure that System.exit() is never called by web applications.\u003c/span\u003e \u003cspan\u003eReferences: \u003ca href\u003d\"https://cwe.mitre.org/data/definitions/382.html\"\u003eCWE\u003c/a\u003e\u003c/span\u003e",
+      "files": {
+        "source_file": {
+          "file": "com/veracode/greenlight/tools/scanner/Main.java",
+          "line": 107,
+          "function_name": "run",
+          "qualified_function_name": "com.veracode.greenlight.tools.scanner.Main$1.run",
+          "function_prototype": "void run()",
+          "scope": "com.veracode.greenlight.tools.scanner.Main$1"
+        }
+      },
+      "flaw_match": {
+        "procedure_hash": "1121203122",
+        "prototype_hash": "4146034803",
+        "flaw_hash": "1728330308",
+        "flaw_hash_count": 1,
+        "flaw_hash_ordinal": 1,
+        "cause_hash": "2866949028",
+        "cause_hash_count": 1,
+        "cause_hash_ordinal": 1,
+        "cause_hash2": "0",
+        "cause_hash2_ordinal": "0"
+      },
+      "flaw_details_link": "https://downloads.veracode.com/securityscan/cwe/v4/java/382.html"
+    }
+  ],
+  "pipeline_scan": "22.9.0-0",
+  "dev_stage": "DEVELOPMENT"
+}
